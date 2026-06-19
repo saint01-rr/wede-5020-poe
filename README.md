@@ -6,7 +6,7 @@
 **Student Name:** Joshua Ofentse Olu  
 **Module:** WEDE5020  
 
----
+---**Live Deployment URL:** [Click Here to gaze upon my Live Website](https://6a359503e5c27299c7b99497--singular-taffy-6dd84c.netlify.app/)
 
 ## Project Overview
 Luxwynne is a high-end luxury streetwear brand blending Y2K aesthetic influences with modern minimalist design. This website prototype establishes a "Luxury Black and Gold" color palette to create an exclusive, boutique feel. The interface features an ultra-clean, high-fashion editorial portal layout inspired by elite minimalist corporate design houses like Balenciaga. The project focuses on high-impact typography, semantic HTML5 structure, and clean responsive grids to cleanly showcase the brand's core capsule pieces.
