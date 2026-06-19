@@ -3,11 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Luxwynne Official Online Portal.">
+    <title>LUXWYNNE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Editorial adjustments to mimic the josh aesthetic */
+        .balenciaga-hero {
+            background-color: #0a0a0a !important;
+            border: none !important;
+            padding: 100px 0 !important;
+            text-align: left !important;
+        }
+        .campaign-title {
+            font-size: 4rem !important;
+            font-weight: 800;
+            letter-spacing: -2px;
+            text-transform: uppercase;
+            color: #ffffff;
+            line-height: 0.9;
+            margin-bottom: 30px;
+        }
+        .editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin-top: 40px;
+        }
+        .editorial-link {
+            display: block;
+            background-color: #111111;
+            padding: 20px;
+            border: 1px solid #1a1a1a;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.85rem;
+            transition: all 0.2s ease;
+        }
+        .editorial-link:hover {
+            background-color: #ffffff;
+            color: #000000;
+            border-color: #ffffff;
+        }
+        .editorial-link span {
+            float: right;
+            color: #d4af37;
+        }
+        .stark-meta {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: #555555;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Blockchain Dlamini</h1>
-    <p>Some information about me</p>
-    <img src="img/img.jpg" alt="Image of a rotweiller">
+
+    <header style="padding: 40px 20px; background: #0a0a0a; border-bottom: 1px solid #111111;">
+        <h1>LUX<span>WYNNE</span></h1>
+        <p class="sub-tagline" style="margin-top: 5px; letter-spacing: 8px;">PRE-FALL 2026 DEPLOYMENT</p>
+    </header>
+
+    <nav style="background: #0a0a0a; border-bottom: 1px solid #111111;">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="references.html">References</a></li>
+        </ul>
+    </nav>
+
+    <main style="padding: 40px 20px; max-width: 1400px;">
+        
+        <!-- Main Campaign Header -->
+        <div class="hero balenciaga-hero">
+            <div class="stark-meta">Collection Matrix / Active</div>
+            <h2 class="campaign-title">THE SC4RY<br>AESTHETIC</h2>
+            <div class="section-line" style="background-color: #ffffff; width: 100px; margin: 0 0 30px 0;"></div>
+            <p style="color: #888888; max-width: 600px; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1px; line-height: 1.7;">
+                Limited allocation outerwear systems. Engineered silhouettes incorporating high-density custom textures, industrial hardware parameters, and metallic insulation geometry. 
+            </p>
+        </div>
+
+        <!-- Brutalist Navigation Grid -->
+        <section style="margin-bottom: 40px;">
+            <div class="stark-meta">System Navigation</div>
+            <div class="editorial-grid">
+                
+                <a href="gallery.html" class="editorial-link">
+                    Explore Lookbook <span>→</span>
+                </a>
+
+                <a href="about.html" class="editorial-link">
+                    Brand Manifesto <span>→</span>
+                </a>
+
+                <a href="enquiry.html" class="editorial-link">
+                    Secure Allocation <span>→</span>
+                </a>
+
+                <a href="contact.html" class="editorial-link">
+                    Contact Desk <span>→</span>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Dynamic Campaign Notice Banner -->
+        <section style="margin-top: 80px;">
+            <div class="card" style="background-color: #0f0f0f; border-left: 2px solid #ffffff; padding: 25px;">
+                <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 3px; color: #d4af37; display: block; margin-bottom: 5px;">Status Update</span>
+                <p style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; color: #ffffff; margin: 0;">
+                    Capsule Alpha assets (Trucker, Shell, Parka) are officially logged inside the database. Access the gallery to view real-time configuration specs.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/animations.js"></script>
 </body>
 </html>

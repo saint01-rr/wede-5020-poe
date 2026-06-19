@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit a direct sizing or allocation allocation query for the Luxwynne collection.">
+    <title>Luxwynne | Enquiry</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>LUX<span>WYNNE</span></h1>
+        <p class="tagline">The SC4RY Aesthetic</p>
+        <p class="sub-tagline">Sizing Allocation Protocol</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="enquiry.html" class="active">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="references.html">References</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Garment Reservation Query</h2>
+            <div class="section-line"></div>
+            
+            <form id="enquiryForm">
+                <div class="form-group">
+                    <label for="clientName">Full Legal Identity</label>
+                    <input type="text" id="clientName" required placeholder="Ex: saint dolce">
+                </div>
+
+                <div class="form-group">
+                    <label for="apparelTarget">Selected Capsule Asset</label>
+                    <select id="apparelTarget" required>
+                        <option value="" disabled selected>Select a garment design...</option>
+                        <option value="velvet_trucker">SC4RY Velvet Trucker (img/newschool.png)</option>
+                        <option value="tactical_shell">Y2K Tactical Shell (img/y2k.png)</option>
+                        <option value="foil_parka">Signature Foil Parka (img/retro.png)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="sizingTier">Sizing Specification</label>
+                    <select id="sizingTier" required>
+                        <option value="" disabled selected>Select baseline sizing...</option>
+                        <option value="sm">Small (Oversized Silhouette)</option>
+                        <option value="md">Medium (Oversized Silhouette)</option>
+                        <option value="lg">Large (Oversized Silhouette)</option>
+                        <option value="xl">X-Large (Oversized Silhouette)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="customMessage">Specific Allocation Requirements</label>
+                    <textarea id="customMessage" rows="5" placeholder="Specify any custom fit parameters or delivery routing remarks..."></textarea>
+                </div>
+
+                <button type="submit">Transmit Allocation Query</button>
+                <div id="responseMessage"></div>
+            </form>
+        </section>
+    </main>
+
+    <script src="js/animations.js"></script>
+</body>
+</html>
